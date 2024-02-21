@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/univsoft/static/css/main.7b645117.css",
+    "main.js": "/univsoft/static/js/main.4de55f95.js",
+    "static/js/453.8f8767e3.chunk.js": "/univsoft/static/js/453.8f8767e3.chunk.js",
+    "static/media/remixicon.svg?t=1705244689813": "/univsoft/static/media/remixicon.426742b01cbcdd986634.svg",
+    "static/media/remixicon.eot?t=1705244689813": "/univsoft/static/media/remixicon.ff1ec9ee899cf84e3449.eot",
+    "static/media/remixicon.ttf?t=1705244689813": "/univsoft/static/media/remixicon.f1ed85ba47411bc8629e.ttf",
+    "static/media/remixicon.woff?t=1705244689813": "/univsoft/static/media/remixicon.85d5afadad2b2c04b2fb.woff",
+    "static/media/bootstrap-icons.woff?": "/univsoft/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/remixicon.woff2?t=1705244689813": "/univsoft/static/media/remixicon.7124d0d7809bef5b73ab.woff2",
+    "static/media/bootstrap-icons.woff2?": "/univsoft/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/li.jpg": "/univsoft/static/media/li.3a2483573a752ffb4bf0.jpg",
+    "static/media/logo.jpeg": "/univsoft/static/media/logo.bc6acecad0871ae48fea.jpeg",
+    "static/media/f.jpg": "/univsoft/static/media/f.5f702c327b8038c2a349.jpg",
+    "static/media/l.jpg": "/univsoft/static/media/l.ffde45fe8c935f02cb70.jpg",
+    "static/media/slick.svg": "/univsoft/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/univsoft/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/univsoft/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/univsoft/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/univsoft/index.html",
+    "main.7b645117.css.map": "/univsoft/static/css/main.7b645117.css.map",
+    "main.4de55f95.js.map": "/univsoft/static/js/main.4de55f95.js.map",
+    "453.8f8767e3.chunk.js.map": "/univsoft/static/js/453.8f8767e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b645117.css",
+    "static/js/main.4de55f95.js"
+  ]
+}
