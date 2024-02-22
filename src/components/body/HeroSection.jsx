@@ -1,9 +1,8 @@
 import React from 'react'
 import '../body/heroSection.css';
-import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import l from '../../assets/images/l.jpg';
+import svg from '../../assets/images/Illustration.svg';
 import li from '../../assets/images/li.jpg';
 import f from '../../assets/images/f.jpg';
 
@@ -12,48 +11,35 @@ function HeroSection() {
     
 
   return (
- <div className="container-fluid-expend-lg mt-2">
-  
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={f} class="d-block  w-100" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src={li} class="d-block w-100" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src={l} class="d-block w-100" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
- </div>
+  
+<section className='hero'>
+    <div className="container">
+      <div className="row">
+        <div className="col-md-6">
+          <div className="copy">
+            <div className="text-label">
+              Changes your bussiness is more !
+            </div>
+            <div className="text-hero-bold">
+              UnivSoft your Mind in the future.
+            </div>
+            <div className="text-hero-regular">
+              There are so many variations passages of management Your mindset about bussines in your company or agency 
+            </div>
+            <div className="cta">
+              <a href='#' className='btn btn-primary shadow-none  'style={{backgroundColor:'#3464AE', color:'#fff'}}>Explore now</a>
+              <a href='#' className='btn btn-secondary shadow-none ms-3  '>See pricing</a>
+
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6">
+          <img className='img-fluid' src={svg} alt='...'/>
+        </div>
+      </div>
+    </div>
+</section>
    
 
   )

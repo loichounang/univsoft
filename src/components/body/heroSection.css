@@ -1,33 +1,34 @@
 /* styles.css */
 
-.carousel-item {
-  height: 100vh; /* Hauteur de la vue à 100% */
-  min-height: 300px; /* Hauteur minimale pour éviter qu'il ne devienne trop petit */
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  background-size: cover;
-  position: relative; /* Position relative pour positionner l'élément avant correctement */
+section.hero{
+  margin: 1.5rem 0;
 }
 
-.carousel-item::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: #000;
-  opacity: 0.7;
+.text-label, .text-hero-bold, .text-hero-regular{
+  margin: 24px 0;
 }
 
-.carousel-caption{
-  bottom: 180px;
-  padding-left: 100px;
-  padding-right: 100px;
+.text-label{
+  color: #3464AE;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 31px;
 }
 
-.carousel-caption h5{
-  font-size: 100px;
-  font-weight: 700;
+.text-hero-bold{
+  color: #ADADAC;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 74px;
 }
+
+.text-hero-regular{
+  color: #3464AE;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 31px;
+
+}
+
+
+
